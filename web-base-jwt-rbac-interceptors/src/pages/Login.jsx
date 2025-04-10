@@ -21,7 +21,7 @@ function Login() {
     const userInfo = {
       id: res.data.id,
       email: res.data.email,
-      rolr: res.data.role
+      role: res.data.role
     }
 
     localStorage.setItem('accessToken', res.data.accessToken) //cmt nếu làm cookie
